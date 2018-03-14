@@ -1,0 +1,45 @@
+{
+  "name": "webpack-starter-pack",
+  "version": "1.0.0",
+  "description": "webpack config pipeline for simple static projects",
+  "main": "index.html",
+  "scripts": {
+    "webpack:dev": "webpack --mode development",
+    "webpack:prod": "webpack --mode production",
+    "webpack:watch": "webpack --watch",
+    "webpack:start": "webpack-dev-server --open --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LabZoneSK/webpack-starter-pack"
+  },
+  "author": "Vladislav Saling, Martin Starosta",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LabZoneSK/webpack-starter-pack/issues"
+  },
+  "homepage": "https://github.com/LabZoneSK/webpack-starter-pack#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.3",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.24.1",
+    "css-loader": "^0.28.10",
+    "extract-loader": "^1.0.2",
+    "file-loader": "^1.1.11",
+    "gulp": "^3.9.1",
+    "gulp-util": "^3.0.8",
+    "html-loader": "^0.5.5",
+    "image-webpack-loader": "^4.1.0",
+    "mini-css-extract-plugin": "^0.2.0",
+    "node-sass": "^4.7.2",
+    "sass-loader": "^6.0.7",
+    "style-loader": "^0.20.3",
+    "vinyl-ftp": "^0.6.0",
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.10",
+    "webpack-dev-server": "^3.1.0",
+    "multi-entry-loader": "^1.1.2"
+  }
+}
