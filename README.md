@@ -7,7 +7,7 @@ Starter pack provides a very basic webpack pipline for preparing js, css, html a
 
 ## commands
 
-- webpack:dev: runs a webpack dev build
-- webpack:prod: runs a webpack prod build
-- webpack:watch: watcher
-- webpack:start: webpack dev server
+- webpack:dev : runs a webpack dev build
+- webpack:prod : runs a webpack prod build
+- webpack:watch : watcher
+- webpack:start : webpack dev server
